@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#base{
+    width: 60%;
+    margin: auto;
+}
+.banner{
+    width: 100%;
+}
+nav{
+    background-color: cornflowerblue;
+    text-align: end;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    display: block;
+    font-family: Verdana;
+}
+nav ul li a:hover{
+    background-color: royalblue;
+    color: black;
+}
+/* login */
+.login{
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+    font-family: Verdana;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login h2{
+    color: royalblue;
+    text-align: center;
+}
+.login label{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+.login input{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px #ccc solid ;
+    width: 95%;
+}
+.login button{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: royalblue;
+    color: white;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.registro-link a{
+    text-decoration: none;
+}
+.registro-link{
+    text-align: center;
+}
+/* ´pagamento*/
+.highlights{
+    margin: 20px auto;
+    font-family: Verdana;
+    background-color: #e8f4ff;
+    padding: 15px;
+    border: 1px solid #0078d7;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #DCDCDC;
+    padding: 10px;
+}
+h3{
+    margin-bottom: 20px;
+    font-family: Verdana;
+    color: royalblue;
+    margin-top: 20px;
+}
+.imagem img{
+    display: inline-block;
+    width: 50px;
+    padding-right: 10px;
+    margin-bottom:20px ;
+}
+.texto-rodape1{
+    margin-top: 18px;
+    font-family: Verdana;
+    text-align: center;
+    color:grey ;
+    font-size: 12px;
+}
+.texto-rodape{
+    margin-top: 10px;
+    font-family: Verdana;
+    text-align: center;
+    color:grey ;
+    font-size: 12px;
+}
